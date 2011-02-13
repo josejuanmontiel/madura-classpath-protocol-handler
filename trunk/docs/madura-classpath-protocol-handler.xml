@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MaduraHTML.xsl"?>
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" xsi:noNamespaceSchemaLocation="MaduraDoc.xsd">
+	<title>
+		<MainTitle>Madura Classpath Protocol Handler</MainTitle>
+		<SubTitle>User Guide</SubTitle>
+		<Author>Roger Parkinson</Author>
+		<Revision>$Revision: 8 $</Revision>
+		<image>logo.jpg</image>
+		<xi:include href="madura-classpath-protocol-handler.log"/>
+		<references>
+			<reference t="Apache Licence 2.0" url="http://www.apache.org/licenses/LICENSE-2.0" />
+			<reference t="Spring Framework" url="http://www.springframework.org" />
+		</references>
+	</title>
+	<body>
+		<process-log/>
+		<process-references/>
+		<h1 t="Overview">
+		<p>When third party code supports accessing a file by URL and you want to put it onto a classpath you can use this. Your URL is something like classpath:/myfile.xml. 
+		Note that this is different from the similar feature in Spring. That gets you resources (and very nicely) but it does not allow 3rd part code to use it as a URL. 
+		This does (but note this does not support wildcards and other cool stuff that Spring does.</p>
+		</h1>
+		<a1 t="Release Notes">
+		<table width="12cm">
+			<tw>12cm</tw>
+		<tr>
+			<td>Initial version</td>
+		</tr>
+		</table>
+		</a1>
+	</body>
+	
+</doc>
